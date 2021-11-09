@@ -6,5 +6,17 @@ namespace otp_program
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (idBox.Text == "" || pwdBox.Text == "")
+            {
+                MessageBox.Show("아이디 혹은 패스워드가 누락되었습니다.");
+                return;
+            } else
+            {
+                new Form2().ShowDialog();
+            }
+        }
     }
 }
