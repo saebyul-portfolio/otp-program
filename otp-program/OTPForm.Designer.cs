@@ -1,6 +1,6 @@
 ﻿namespace otp_program
 {
-    partial class Form2
+    partial class OTPForm
     {
         /// <summary>
         /// Required designer variable.
@@ -113,6 +113,7 @@
             this.Controls.Add(this.title);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OTPFormClose);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
