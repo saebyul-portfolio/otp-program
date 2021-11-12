@@ -112,7 +112,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.title);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "OTP 인증";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OTPFormClose);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);

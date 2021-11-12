@@ -135,7 +135,7 @@
             this.Controls.Add(this.idLabel);
             this.Controls.Add(this.title);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "OTP 프로그램";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClose);
             this.ResumeLayout(false);
             this.PerformLayout();
